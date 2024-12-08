@@ -39,7 +39,7 @@ The dataset used in this project is sourced from Kaggle, titled "[Churn in Telec
 Exploratory Data Analysis was carried out where missing values and duplicates were checked. Further analysis was conducted to better understand what features affected churn. Some of the findings of the analysis are briefly discussed and visualized below.
 
 1. CLASS IMBALANCE
-![class_imbalance](visualizations/class_imbalance)
+![class_imbalance](visualizations/class_imbalance.png)
 
 There's a substantial imbalance in our dataset. 85.5% of the rows belong to the "False" class while 14.5% of rows belong to the "True" class. This also shows that 15% of customers at SyriaTel have churned
 
