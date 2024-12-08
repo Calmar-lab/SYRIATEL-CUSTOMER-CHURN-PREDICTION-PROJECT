@@ -32,19 +32,16 @@ These metrics help us confirm the model performs well on the dataset and general
 
 
 ### DATA SOURCE:
-The dataset used in this project is sourced from Kaggle, titled "(Churn in Telecoms)[https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset]." It's a CSV file that contains information on customer demographics, service usage, and other features to predict telecom churn. You can access it here.
+The dataset used in this project is sourced from Kaggle, titled "[Churn in Telecoms](https://www.kaggle.com/datasets/becksddf/churn-in-telecoms-dataset)." It's a CSV file that contains information on customer demographics, service usage, and other features to predict telecom churn. You can access it here.
 
 
-DATA ANALYSIS
--
--
--
+### DATA ANALYSIS
+Exploratory Data Analysis was carried out where missing values and duplicates were checked. Further analysis was conducted to better understand what features affected churn. Some of the findings of the analysis are briefly discussed and visualized below.
 
 1. CLASS IMBALANCE
+![class_imbalance](visualizations/class_imbalance)
 
-There's a substantial imbalance in our dataset. 85.5% of the rows belong to the "False" class while 14.5% of rows belong to the "True" class.
-
-This also shows that 15% of customers at SyriaTel have churned
+There's a substantial imbalance in our dataset. 85.5% of the rows belong to the "False" class while 14.5% of rows belong to the "True" class. This also shows that 15% of customers at SyriaTel have churned
 
 
 2. AREA CODES
